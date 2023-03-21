@@ -1,0 +1,25 @@
+package main
+
+import "fmt"
+
+func main() {
+	var numero int
+	fmt.Print("Informe um número:")
+	fmt.Scan(&numero)
+	var numero2 int
+	fmt.Print("Informe um número:")
+	fmt.Scan(&numero2)
+	var numero3 int
+	fmt.Print("Informe um número:")
+	fmt.Scan(&numero3)
+	if numero < numero2 && numero < numero3 {
+		fmt.Print("primero número é o menor:")
+	} else if numero2 < numero && numero2 < numero3 {
+		fmt.Print("Segundo número é o menor:")
+	} else if numero3 < numero && numero3 < numero2 {
+		fmt.Print("terceiro numero é o menor:")
+	} else {
+		fmt.Print("Os numeros são iguais ")
+	}
+
+}
