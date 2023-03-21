@@ -1,0 +1,14 @@
+package main
+
+import "fmt"
+
+func main() {
+	var num1 int
+	fmt.Print("Informe um número:")
+	fmt.Scan(&num1)
+	if num1%2 == 0 {
+		fmt.Print("Este numero é par ")
+	} else {
+		fmt.Print("Este numero é impar")
+	}
+}
