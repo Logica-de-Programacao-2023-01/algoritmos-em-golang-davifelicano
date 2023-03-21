@@ -1,0 +1,13 @@
+package main
+
+import "fmt"
+
+func main() {
+	var numero int
+	fmt.Print("Digite um numero:")
+	fmt.Scan(&numero)
+	x := numero + 1
+	y := numero - 1
+	fmt.Println("sucessor: ", x)
+	fmt.Println("antecessor: ", y)
+}
