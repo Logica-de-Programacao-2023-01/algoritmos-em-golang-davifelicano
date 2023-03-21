@@ -1,0 +1,17 @@
+package main
+
+import "fmt"
+
+func main() {
+	var numero int
+	fmt.Print("Informe um número:")
+	fmt.Scan(&numero)
+	var numero2 int
+	fmt.Print("Infome um número:")
+	fmt.Scan(&numero2)
+	if numero > numero2 {
+		fmt.Print("primeiro numero é maior")
+	} else {
+		fmt.Print("Segundo numero é maior ")
+	}
+}
