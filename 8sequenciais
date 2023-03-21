@@ -1,0 +1,14 @@
+package main
+
+import "fmt"
+
+func main() {
+	var dias int
+	fmt.Print("Informe o número de dias trabalhados:")
+	fmt.Scan(&dias)
+	var diaria int
+	fmt.Print("Informe o valor da sua diaria:")
+	fmt.Scan(&diaria)
+	x := dias * diaria
+	fmt.Println("Salario: ", x)
+}
